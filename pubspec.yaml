@@ -5,21 +5,20 @@ homepage: https://github.com/modwedar/YoutubeDataApi
 repository: https://github.com/modwedar/YoutubeDataApi
 
 environment:
-  sdk: ">=2.17.1 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.4
-  html: ^0.15.0
-  xml2json: ^5.3.3
-  collection: ^1.16.0
+  http:
+  html: ^0.15.4
+  xml2json: ^6.2.3
+  collection:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
